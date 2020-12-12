@@ -4,8 +4,7 @@ A class is like an object constructo or a Blue Print for creating objects. To cr
 2)Explain Objects in Java ?
 Object is an instance of class. Objects have States and behaviour.
  Eg: A dog has state - color,name,breed and also behaviour- barking, eating etc.		
-In java an object vis created from a class. 
-Eg:public class MyProgram {  public static void main(String[] args) { MyObject obj = new MyObject();  }  }	
+	
 
 3)What is the use of this keyword in Java ? Where all it can be used
 This is a reference for  object and within the instance method or constructor. and it can be used within instance method and constructor .
@@ -17,7 +16,8 @@ Eg: if we want to initialize object of bike that is color using constructor--pub
                                                                                public String name;
                                                                               
                                                                               public Book(String name);																			  
-																			  this.name=name;		  
+																			  
+			                                                       this.name=name;		  
 																						  
 																						  }
 5)What is over-loading explain with examples?
