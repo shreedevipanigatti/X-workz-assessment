@@ -1,0 +1,121 @@
+What is class?
+A class is like an object constructo or a Blue Print for creating objects. To create a class, use the keyword "class"	
+
+2)Explain Objects in Java ?
+Object is an instance of class. Objects have States and behaviour.
+ Eg: A dog has state - color,name,breed and also behaviour- barking, eating etc.		
+In java an object vis created from a class. 
+Eg:public class MyProgram {  public static void main(String[] args) { MyObject obj = new MyObject();  }  }	
+
+3)What is the use of this keyword in Java ? Where all it can be used
+This is a reference for  object and within the instance method or constructor. and it can be used within instance method and constructor .
+
+
+4)What is Constructor ?
+constructor is a method that is used to initialize object and constructor is called when an object of class created.
+Eg: if we want to initialize object of bike that is color using constructor--public Book{
+                                                                               public String name;
+                                                                              
+                                                                              public Book(String name);																			  
+																			  this.name=name;		  
+																						  
+																						  }
+5)What is over-loading explain with examples?
+The methods have the same signature but accept different arguments.	
+Two or more methods can have same name if they differ in parameters,These methods are called overloaded methods and this feature is called method overloading. 
+
+Eg:name(String, int)
+   name(String, float)	
+
+
+6)What is static in Java ?
+In the Java programming language, The static variable can be used to refer to the common property of all objects (which is not unique for each object), 
+for example, the company name of employees, college name of students, etc.
+
+
+7)What is Access Specifier?
+ In java an access specifier provides visibility or permission to access a class,field,method or a constructor.
+ There are four types : 1.public
+                        2.protected
+                        3.default
+                        4.private
+                        
+1)Public can be used with outer Class/inner class,Field,Method and Constructor.
+2)Protected can be used with inner class,Field,Method and Constructor.
+3)default can be used with outer Class/inner class,Field,Method and Constructor.                                            
+4)private can be used with inner class,Field,Method and Constructor.                                                                                                                                                                                                                                                                                
+
+
+8)What are the types of variables explain with ex?
+
+A variable is a name which is associated with a value that can be changed. OR Variables are containers for storing data values.
+For example when I write byte Eyes=2; here variable name is Eyes which is associated with value 2 ,
+byte is a data type that represents that this variable can hold byte values.   
+
+There are 3 types in java:
+1.Local variables
+2.Instance variables
+3.Class/Static variables
+
+1.Local variables are declared in methods, constructors, or blocks.
+
+public class Test {
+   public void pupAge() {
+      int age = 0;
+      age = age + 7;
+      System.out.println("Puppy age is : " + age);
+   }
+
+   public static void main(String args[]) {
+      Test test = new Test();
+      test.pupAge();
+   }
+}
+
+2.Instance variables are declared in a class, but outside a method, constructor or any block.
+
+
+3.Class variables also known as static variables are declared with the static keyword in a class, but outside a method, constructor or a block.
+public class Employee {
+
+ eg: private static double salary;
+
+  public static final String DEPARTMENT = "Development ";
+
+   public static void main(String args[]) {
+      salary = 1000;
+      System.out.println(DEPARTMENT + "average salary:" + salary);
+   }
+}
+
+
+
+9)What in instantiation and initialization explain with example ?
+
+Instantiation: The new keyword is a Java operator that creates the object. 
+This is what the new keyword is doing. A reference to the object that was created is returned from the new keyword.
+
+Initialization: The new operator is followed by a call to a constructor, which initializes the new object
+This is when values are put into the memory that was allocated. This is what the Constructor of a class does when using the new keyword.
+
+eg:SomeClass s; 
+s = new SomeClass();
+
+eg:int a=b+c; ... Multiple variables can be initialized in a single statement by single value, for example, a=b=c=d=e=10; 
+
+
+
+10)Explain array's in Java with example ?
+
+An array is data structure ,storing of object of the same data type.and it is initialize during declaration .declare and initialize 
+   
+ They are two types of arrays in Java: 
+
+1.Single dimensional array − A single dimensional array of Java is a normal array where, the array contains sequential elements (of same type) −
+
+int[] myArray = {10, 20, 30, 40}
+
+2.Multi-dimensional array − A multi-dimensional array in Java is an array of arrays. 
+A two dimensional array is an array of one dimensional arrays and a three dimensional array is an array of two dimensional arrays.
+
+
